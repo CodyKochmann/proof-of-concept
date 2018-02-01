@@ -1,6 +1,6 @@
 ## experiment - use ast to inject code to prevent decorator slowdown
 
-In short, yes.
+In short, it can be done. It's a little messy to do, but it can be done.
 
 It does break self inspection for the inspect library but things can still be self evaluated if you use `ast` inspection methods.
 
