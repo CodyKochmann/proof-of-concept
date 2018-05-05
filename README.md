@@ -10,8 +10,10 @@ This is where I keep my experiments that show how various programming concepts c
 
 - __Python__
   - [use ast to inject code to prevent decorator slowdown](/python/experiment.use_ast_to_inject_code_to_prevent_decorator_slowdown.md)
-
+  - [generators as datastructures](/python/experiment.generators_as_datastructures.md)
+  
 #### Observations
 
 - __Python__
   - [not all decorators impact performance](/python/observation.not_all_decorators_impact_performance.md)
+  
