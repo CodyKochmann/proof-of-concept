@@ -50,4 +50,15 @@ AssertionError                            Traceback (most recent call last)
 AssertionError: a needs to be an int
 
 In [180]: # yay! added functionality without the overhead of nested function calls
+
+In [181]: import astor # this will help us print the modified code
+
+In [182]: print(astor.to_source(my_adder_ast.body[0]))
+def my_adder(a, b, c):
+    assert type(a) == int, 'a needs to be an int'
+    d = a + b
+    if c % 2:
+        return a + b
+    else:
+        return a + d
 ```
